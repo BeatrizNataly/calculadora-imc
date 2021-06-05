@@ -1,0 +1,71 @@
+h1{
+    margin-left:20px;
+  }
+  .container{
+    border-radius: 20px;
+    font: 1.5em serif;
+    text-align:center;
+    font-family: 'Sigmar One', cursive;
+    border: 1px #B7565F;
+    box-shadow: 0px 3px 10px;
+    padding: 15px;
+    height: 650px;
+    width: 800px;
+    margin: 50px;
+    background-color: #DA9F93;
+  }
+  
+  .container-calculadora-peso, .container-calculadora-altura{
+    border-radius: 15px;
+    height:100px;
+    width: 450px;
+    text-align:center;
+    font-family:'Roboto Mono', monospace;
+    margin-bottom: 16px;
+    margin-left: 170px;
+    background-color: #EBD4CB;
+  }
+  
+  .input-number{
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    margin:auto;
+    font-size: 25px;
+    background-color: white;
+  }
+  
+  .botao-calcular{
+    width: 450px;
+    margin:auto;
+    border-radius: 20px;
+    text-align:center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    background-color: #2018;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+  }
+  
+  .container-calculadora-resultado{
+    margin:auto;
+    display: flex;
+    margin-top: 20px;
+    text-align:center;
+    width: 400px;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: #B6465F;
+    background: #EBD4CB;
+    color: #B6465F;
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+  }
+  
+  .imagem-rodape{
+    margin-left: 700px;
+    filter: drop-shadow(7px 7px 7px #B7565F);
+  }
