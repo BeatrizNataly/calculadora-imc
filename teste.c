@@ -3,8 +3,7 @@ int main()
     char resposta;
     
     printf("Hello World!");
-    system("pause");
-    get(resposta);
+    get("%i", &resposta);
 
     printf("Bye bye.");
 
