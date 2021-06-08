@@ -10,7 +10,9 @@ function imc() {
         const valorIMC = (peso / (altura * altura)).toFixed(2) //arredondar o valor para duas casas
 
         let classif = "";
-        if (valorIMC < 18.5) {
+        if(valorIMC < 6){
+            classif = "com dados mau inseridos. Confira o peso e altura declarados e tente novamente.";
+        } else if (valorIMC < 18.5) {
             classif = "abaixo do peso.";
         } else if (valorIMC < 25) {
             classif = "no peso ideal.";
@@ -24,7 +26,7 @@ function imc() {
             classif = "obesidade grau 3.";
         }
 
-        resultado.textContent = `Seu IMC é ${valorIMC} e você está ${classif}`
+        resultado.textContent = `O IMC é ${valorIMC} e nesta condição está ${classif}`
 
     } else {
         resultado.textContent = 'Preencha todos os campos para calcular seu IMC.'
